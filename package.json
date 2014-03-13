@@ -26,6 +26,8 @@
     "underscore": "~1.4.4",
     "nopents": "~0.1.0",
     "config": "~0.4.27",
-    "q": "~0.9.6"
+    "q": "~0.9.6",
+    "statsd": "^0.7.1",
+    "statsd-librato-backend": "^0.1.2"
   }
 }
