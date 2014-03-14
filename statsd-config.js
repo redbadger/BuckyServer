@@ -4,5 +4,6 @@
     token:  process.env.LIBRATO_TOKEN,
     source: "haller-metrics"
   },
-  backends: ["statsd-librato-backend"]
+  hostedGraphiteAPIKey: process.env.HOSTEDGRAPHITE_APIKEY,
+  backends: ["statsd-librato-backend", "statsd-hostedgraphite-backend"]
 }

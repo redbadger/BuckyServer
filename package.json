@@ -28,6 +28,7 @@
     "config": "~0.4.27",
     "q": "~0.9.6",
     "statsd": "^0.7.1",
-    "statsd-librato-backend": "^0.1.2"
+    "statsd-librato-backend": "^0.1.2",
+    "statsd-hostedgraphite-backend": "0.0.2"
   }
 }
